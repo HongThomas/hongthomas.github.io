@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>TH > Portfolio</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" href="../img/TH-logo-mini.svg">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://kit.fontawesome.com/7760f9fa4d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-logo">
+            <!-- <img class="img-logo" src="../img/TH-logo-mini.svg" alt="Thomas"> -->
+            <h3 class="title"><a href="#presentation" class="title-ref">Thomas Hong</a></h3>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#parcours" class="navigation-lien">Parcours</a></li>
+                <li><a href="#skills" class="navigation-lien">Skills</a></li>
+                <li class="navigation-lien"><a href="https://github.com/HongThomas" target="_blank"
+                        class="navigation-lien">Projets</a> </li>
+
+            </ul>
+        </nav>
+        <div class="contact">
+            <a href="#contact-section">
+                <button class="contact-button">
+                    Contact
+                </button>
+            </a>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="presentation">
+            <div class="introduction">
+
+                <div class="img-cointainer">
+                    <img class="img-presentation" src="../img/TH-logo-mini.svg" alt="Thomas">
+                </div>
+                <div class="intro-txt">
+                    <h1>>THOMAS_</h1>
+                    <p>Etudiant en développement Informatique</p>
+                </div>
+            </div>
+        </section>
+        <section id="parcours">
+            <h3>Mon parcours</h3>
+            <div class="parcours-graphgique">
+
+                <svg width="450" height="900" style="background: rgb(27, 39, 63)">
+
+                    <text x="40" y="90" fill="white" class="txt-time">2020 - Aujourd'hui</text>
+                    <text x="60" y="115" fill="white">IUT de Villetaneuse - Université Sorbonne Paris Nord</text>
+                    <text x="60" y="140" fill="white">DUT Informatique</text>
+
+                    <text x="40" y="240" fill="white" class="txt-time">2017 - 2020</text>
+                    <text x="60" y="275" fill="white">Lycée Camille Saint-Saëns (95)</text>
+                    <text x="60" y="300" fill="white">Bac S SVT, Spécialté Mathématiques, Mention Bien</text>
+
+                    <line x1="10" y1="50" x2="10" y2="850" stroke="rgba(27, 114, 243, 1)" stroke-width="5"></line>
+                    <circle cx="10" cy="85" r="8" fill="rgba(27, 114, 243, 1)"></circle>
+                    <circle cx="10" cy="235" r="8" fill="rgba(27, 114, 243, 1)"></circle>
+                </svg>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h3>Mes compétences</h3>
+            <div class="container-skills">
+                <div class="grid-skills">
+                    <h5>Python</h5>
+                    <p>Langage par lequel j'ai été introduit à la programmation et à l'algorithmique. Je sais utiliser
+                        les listes, dictionnaires, boucles, conditions... Ces notions ont été approfondies par de
+                        projets personnels et académiques (jeu d'échec).</p>
+                </div>
+                <div class="grid-skills">
+                    <h5>SQL (Postgres)</h5>
+                    <p>Requêtes simples sur des relations, jointures, fonctions trigger en SQL ou Pl/PgSQL...</p>
+                </div>
+                <div class="grid-skills">
+                    <h5>HTML/CSS</h5>
+                    <p>
+                        Balises HTML en respectant la structure d'une page Web selon le W3C.
+                        En CSS: flex-box, grid layout et propriétés CSS.
+                    </p>
+
+                </div>
+                <div class="grid-skills">
+                    <h5>JavaScript</h5>
+                    <p>
+                        En cours d'apprentissage
+                    </p>
+
+                </div>
+                <div class="grid-skills">
+                    <h5>Java</h5>
+                    <p>
+                        Maîtrise de l'encapsulation, héritage, interfaces et classes abstraites. Conception en UML sur
+                        Modelio.
+                    </p>
+
+                </div>
+                <div class="grid-skills">
+                    <h5>PHP</h5>
+                    <p>
+                        Apprentissage l'année prochaine. 
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <section id="contact-section">
+            <div class="contact-container">
+                <h3>Contactez-moi !</h3>
+                <button class="mail-button"><a href="mailto: hong-thomas@outlook.com">Envoyer un mail</a></button>
+            </div>
+        </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fas fa-arrow-alt-circle-up"></i>
+        </button>
+        <footer>
+            <div class="socials">
+                <div class="network">
+                    <h4>
+                        RESEAUX SOCIAUX
+                    </h4>
+                    <div class="socials-icons">
+                        <a href="https://www.linkedin.com/in/thomas-hong-3a02711b8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    
+                        <a href="https://github.com/HongThomas" target="_blank"><i class="fab fa-github-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="contact-links">
+                    <h4>CONTACT</h4>
+                    <div class="mail-links">
+                        
+                    </div>
+                </div> -->
+            </div>
+        </footer>
+
+
+        <img src="../img/big-eclipse.svg" class="big-eclipse" alt="eclipse">
+    </main>
+
+</body>
+
+</html>
+<script src="..\js\index.js">
+</script>
