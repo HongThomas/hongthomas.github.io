@@ -1,6 +1,18 @@
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
+let i = 0;
+
+function replace_underscore() {
+    let underscore = document.querySelector("#underscore");
+    text = ["rgba(34, 126, 212)", "white"];
+    shadow = ["none", "2px 2px #0a0a0a"];
+    underscore.style.color = text[i];
+    underscore.style.textShadow = shadow[i];
+    i = (i+1) % text.length;
+}
+setInterval(replace_underscore, 700);
+
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
